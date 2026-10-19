@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DanaRutin Automation Suite" parallel="tests" thread-count="2">
+    <test name="Login Regression Tests">
+        <classes>
+            <class name="tests.pages.BudgetPage.LoginPage.LoginTest"/>
+
+            <class name="tests.BudgetTest" />
+        </classes>
+    </test>
+</suite>
